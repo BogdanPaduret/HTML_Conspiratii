@@ -27,7 +27,42 @@
     </header>
 
     <main>
+        <section>
+            <h2>Personal Information</h2>
+            <fieldset>
+                <legend><h3>Basic Info</h3></legend>
 
+                <label for="userName">Name:</label><br>
+                <input type="text" id="userName"><br>
+
+                <label for="userPassword">Password:</label><br>
+                <input type="password" id="userPassword"><br>
+            </fieldset>
+            <fieldset>
+                <legend><h3>Additional Info</h3></legend>
+
+                <label for="userDoB">Date of Birth:</label><br>
+                <input type="date" id="userDoB"><br>
+
+                <label for="userHappyHour">Happy Hour:</label><br>
+                <input type="time" id="userHappyHour"><br>
+            </fieldset>
+
+            <h2>Conspiring Info</h2>
+            <fieldset>
+                <legend><h3>What conspiracies do you like to believe?</h3></legend>
+
+                <input type="checkbox" id="corporationsCB" value="corporationsCB"><label for="corporationsCB">Corporations</label><br>
+                <input type="checkbox" id="aliensCB" value="aliensCB"><label for="aliensCB">Aliens</label><br>
+                <input type="checkbox" id="politicsCB" value="politicsCB"><label for="politicsCB">Politics</label>
+
+                <legend><h3>What conspiracies do you believe most?</h3></legend>
+
+                <input type="radio" id="corporationsR" name="biggestConspiracy" value="corporationsR"><label for="corporationsR">Corporations</label><br>
+                <input type="radio" id="aliensR" name="biggestConspiracy" value="aliensR"><label for="aliensR">Aliens</label><br>
+                <input type="radio" id="politicsR" name="biggestConspiracy" value="politicsR"><label for="politicsR">Politics</label><br>
+            </fieldset>
+        </section>
     </main>
 
     <footer>
